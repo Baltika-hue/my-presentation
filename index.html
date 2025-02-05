@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>
+						<font size="10">
+						Что такое Kotlin
+					    </font>
+					</h1>
+					<p>
+						<font size="5">
+							Kotlin — это статически типизированный язык программирования, который разрабатывался компанией JetBrains. Он был представлен в 2011 году и с тех пор стал официальным языком для разработки Android приложений. Особенность Kotlin заключается в его лаконичности, безопасности и совместимости с Java, что делает его особенно привлекательным для разработчиков.
+					    </font>
+					</p>
+				</section>
+				<section>
+					<h1>
+						<font size="10">
+							История развития Kotlin
+						</font>
+					</h1>
+					<p>
+					    <font size="5">
+							Kotlin был создан для решения недостатков Java, таких как многословие и частые ошибки в коде. В 2017 году Google объявил Kotlin официальным языком для Android, что значительно повысило его популярность. С тех пор язык активно развивается и получает регулярные обновления.
+					    </font>
+					</p>
+				</section>
+				<section>
+					<h1>
+						<font size="10">
+							Особенности Kotlin
+						</font>
+					</h1>
+					<p>
+						<font size="5">
+							Kotlin обладает рядом уникальных особенностей, которые делают его удобным и привлекательным для разработчиков. Сюда входит наличие нулевой безопасности, поддержка функционального программирования, расширяемость и возможность использования в разных средах, включая серверные и веб-приложения.
+						</font>
+					</p>
+				</section>
+				<section>
+					<h1>
+						<font size="10">
+							Нулевая безопасность
+						</font>
+					</h1>
+					<p>
+						<font size="5">
+							Одной из важнейших функций Kotlin является поддержка нулевой безопасности. Это значит, что компилятор помогает предотвратить ошибки, связанные с нулевыми значениями, что своего рода революция по сравнению с Java. В Kotlin переменные по умолчанию не могут принимать значение null, за исключением тех, которые явно помечены как nullable.
+						</font>
+					</p>
+				</section>
+				<section>
+					<h1>
+						<font size="10">
+							Лаконичность кода
+						</font>
+					</h1>
+					<p>
+						<font size="5">
+							Синтаксис Kotlin значительно короче и лаконичнее, чем у Java. Программисты могут писать более чистый и понятный код, тратя меньше времени на написание однообразных шаблонов. Например, создание классов и методов в Kotlin требует меньше строк кода.
+						</font>
+					</p>
+				</section>
+				<section>
+					<h1>
+						<font size="10">
+							Пример кода на Kotlin
+						</font>
+					</h1>
+					<p>
+						<font size="5">
+							Вот пример простого кода на Kotlin, демонстрирующий его лаконичность:
+						</font>
+						<pre><code>
+							fun main() {
+								val greeting: String = "Hello, World!"
+								println(greeting)
+							}
+						</code>
+					</p>
+				</section>
+				<section>
+					<h1>
+						<font size="10">
+							Применение Kotlin
+						</font>
+					</h1>
+					<p>
+						<font size="5">
+							Kotlin активно используется для разработки мобильных приложений на Android, а также для создания серверных приложений с помощью фреймворков, таких как Ktor. Кроме того, язык поддерживает JavaScript и может использоваться для веб-разработки, что делает его многофункциональным инструментом.
+						</font>
+					</p>
+				</section>
+				<section>
+					<h1>
+						<font size="10">
+							Сообщество и поддержка
+						</font>
+					</h1>
+					<p>
+						<font size="5">
+							Вокруг языка Kotlin сформировалось большое и активное сообщество. Разработчики имеют доступ к множеству образовательных ресурсов, библиотек и фреймворков, которые ускоряют процесс разработки.
+						</font>
+					</p>
+				</section>
+				<section>
+					<h1>
+						<font size="10">
+							Заключение
+						</font>
+					</h1>
+					<p>
+						<font size="5">
+							Kotlin — это мощный, современный и безопасный язык программирования, который предоставляет множество возможностей как для начинающих, так и для опытных разработчиков. Если вы еще не пробовали Kotlin, сейчас самое время начать!
+						</font>
+					</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
